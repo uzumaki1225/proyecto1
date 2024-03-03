@@ -1,0 +1,45 @@
+/*inicio*/
+body{
+  font-family: "Anta", sans-serif;
+  margin: 0;
+}
+a{
+  color: rgb(63, 226, 63);
+  text-decoration: none;
+}
+header{
+  justify-content: space-between;
+  min-height: 70px;
+  background-color: black;
+  display: flex;
+  align-items:center;
+  padding: 10px;
+  }
+.logo{
+  display: flex;
+  align-items:center;
+  padding: 5px;
+  }
+.logo img{
+  height: 80px;
+  display: flex;
+  margin-right: 12px;
+  margin-left: 12px;
+  }
+nav a{
+  font-weight: 600;
+  padding-right:10px;
+  }
+
+nav a:hover{
+  color: red;
+  }
+
+/*aplicacion en movil*/
+@media (max-widht:680px){
+header{
+  flex-direction: column;
+  }
+  nav{
+  padding:10px, 0px;}
+}
